@@ -1,0 +1,31 @@
+
+Attack forms, abstract etc:
+
+http://vsr.informatik.tu-chemnitz.de/edu/2012/webe-seminar-ws-m/presentations/05.pdf
+
+you know have are:
+
+http://www.cs.cornell.edu/courses/cs513/2005fa/nnlauthpeople.html
+
+problematik bei two factor
+
+http://www.itsec.gov.cn/webportal/download/2004_two-factor.pdf
+
+digital identiy Management, Einführung in die Problematik
+
+http://books.google.de/books?hl=de&lr=&id=y7Sarg6BaPIC&oi=fnd&pg=PA113&dq=two+factor+authentication&ots=AnC-43BT_R&sig=O3MxagcrZeDuum5Vl7CDycVpy8Q#v=onepage&q=two%20factor%20authentication&f=false
+
+biometrische ansätze
+
+http://pdf.aminer.org/000/156/421/privacy_preserving_multi_factor_authentication_with_biometrics.pdf
+
+google etc:
+
+http://www.google.de/patents?hl=de&lr=&vid=USPAT7373515&id=teOpAAAAEBAJ&oi=fnd&dq=multi+factor+authentication&printsec=abstract#v=onepage&q=multi%20factor%20authentication&f=false
+
+
+Google, ubikey etc Vorstellung der Methoden:
+https://ascue.org/files/proceedings/2013/2013-final.pdf#page=81
+
+Master thesis über dieses Thema:
+http://compsec-dev2.web.cern.ch/sites/compsec-dev2.web.cern.ch/files/Kesici_PdM.pdf
