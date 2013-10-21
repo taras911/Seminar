@@ -27,8 +27,7 @@
 
 \usepackage{graphicx}
 \usepackage[cmex10]{amsmath}
-\usepackage[ngerman]{babel} % Deutsche Ausarbeitung
-% \usepackage[USenglish]{babel} % Englische Ausarbeitung
+\usepackage[ngerman,USenglish]{babel} 
 \usepackage{url}
 \usepackage{hyperref}
 \usepackage[utf8]{inputenc}
@@ -48,11 +47,11 @@
 
 \begin{document}
 
-\title{Titel}
+\title{Two Factor Authentication}
 
 \author{%
-\IEEEauthorblockN{Stefan Dietzel}\\
-\IEEEauthorblockA{\url{stefan.dietzel@uni-ulm.de}}%
+\IEEEauthorblockN{Taras Kr"anzle}\\
+\IEEEauthorblockA{\url{taras-1.kraenzlel@uni-ulm.de}}%
 \thanks{%
 \cclicense{}
 Diese Arbeit steht unter einer Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz.}%
@@ -60,39 +59,63 @@ Diese Arbeit steht unter einer Creative Commons Namensnennung - Weitergabe unter
 }
 
 \IEEEpubid{\sffamily%
-\makebox[\columnwidth]{\hfill Titel des Seminars}%
+\makebox[\columnwidth]{\hfill Ausgew"ahlte Themen Verteilter Systeme}%
 \makebox[\columnsep]{$\cdot$}%
-\makebox[\columnwidth]{WS/SS XXXX,
+\makebox[\columnwidth]{WS 2013/14,
 Institut f"ur Verteilte Systeme, Universit"at Ulm\hfill}}
 
 \IEEEtitleabstractindextext{%
 \begin{abstract}
-Eine kurze Zusammenfassung. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Verifying a person is an always present topic in our society in terms of information security. This paper deals with the problems of Single Factor Authentication, such as wrong choices for passwords,phishing,social engineering and evaluates methods for enhancing the security, both in theory, by describing the possible combinations of known Authentication methods,but also in practice with examples from leading companies in the world. A perspective for the future is posed to alert the awareness for insecure Authentication methods.
 \end{abstract}%
 }
 
 % make the title area
 \maketitle
 
+\tableofcontents
+
 \IEEEfirstsection{%
-\section{Einleitung}
+
+\section{Introduction}
 \label{sec:introduction}
 }
 
-\IEEEPARstart{I}n den vergangenen Jahren \dots Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim~\cite{test} id est laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\IEEEPARstart{I}n den vergangenen Jahren \dots Lim~\cite{test} id est laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\section{ Authentication for Users}
 
-\section{Spannendes Thema}
+\subsection{User Authentication Factors}
+\subsubsection{Something You Know}
+\subsubsection{Something You Have}
+\subsubsection{Something You Are}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\subsection{Single Factor Authentication}
+\subsubsection{Weak Authentication}
+\subsubsection{Problems}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\section{Two Factor Authentication}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+\subsection{Via mobile phones}
+\subsubsection{Google}
+Yet this example is for Google.
+\subsubsection{Github}
+This one for Github.
+\subsubsection{airbnb}
+This one for airbnb.
+\subsection{Via TAN}
+In the bank area this is used.
+\subsection{Via Yubikey?}
+Maybe?
+\subsection{Biometric}
+Maybe?
+\subsection{Evaluation}
+\section{Summary}
+Clearly, there are certain pros and cons for the use.
+\section{Conclusion}
+Finally, ... .
 \bibliographystyle{IEEEtranS}
 \bibliography{references}
 
